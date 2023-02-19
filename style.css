@@ -1,0 +1,430 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+}
+header{
+    height: 100vh;
+    background-image: url(background.png);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.logo{
+margin-top: 30px;
+width: 100px;
+}
+.headertxt{
+    margin-top: 100px;
+    width: 340px;
+}
+h1{
+    font-size: 34px;
+}
+.square{
+    height: 12px;
+    width: 12px;
+    display:inline-block;
+    background-color: #f67c92;
+    margin: 15px 0;
+}
+
+.custom{
+    padding: 18px 40px;
+    background: transparent;
+    outline:none;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+}
+p{
+    font-size: 15px;
+    line-height: 20px;
+    color: #777;
+}
+.headertxt button{
+     margin-top: 20px;
+    margin-bottom: 60px;
+}
+.line1{
+    width: 15px;
+    height: 15px;
+    background-color: #f67c92;
+    display: inline-block;
+}
+.line2{
+    width: 80px;
+    height: 1px;
+    background-color: #f67c92;
+    display: inline-block;
+}
+.line3{
+    width: 60px;
+    height: 1px;
+    background-color: #f67c92;
+    display: inline-block;
+}
+.line{
+    line-height: 10px;
+}
+
+#sidebar{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    background: #f67c92;
+    z-index: 2;
+    transition: .5s;
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+#menubtn{
+    width: 50px;
+    position: fixed;
+    top: 35px;
+    right: 65px;
+    z-index: 2;
+    cursor: pointer;
+}
+    /*about*/
+    
+
+#about, #offer{
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.aboutleftcol{
+    flex-basis: 50%;
+}
+.aboutleftcol img{
+    width: 100%;
+}
+.aboutrightcol{
+    flex-basis: 50%;
+}
+.aboutus{
+    max-width: 600px;
+    margin-right: 50px;
+    display: inline-block;
+    text-align: right;
+}
+.aboutus h2{
+    margin: 50px 0 10px;
+    font-size : 28px;
+    font-style: italic;
+}
+.aboutus h3{
+    color: #797979;
+    font-size : 20px;
+    font-style: italic;
+}
+/* features*/
+#features{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.featurecol{
+    margin: auto;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.col1{
+    text-align: center;
+    flex-basis: 25%;
+
+}
+.col2{
+    text-align: center;
+    flex-basis: 25%;
+    
+}
+.col3{
+    text-align: center;
+    flex-basis: 25%;
+    
+}
+.col1 img{
+    width: 100px;
+}
+.col2 img{
+    width: 100px;
+}
+.col3 img{
+    width: 100px;
+}
+.col1 h4{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.col2 h4{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.col3 h4{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.featurebtn{
+    margin: 80px auto 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+.featurebtn .line{
+    margin-right: 25px;
+    display: inline-block;
+    text-align: right;
+}
+/*COurses*/
+#courses{
+    padding: 100px 0;
+
+}
+.courserow{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.courses-col-2{
+    flex-basis: 50%;
+
+}
+.courses-col-2 img{
+    width: 100%;
+    
+}
+.courses-col-1{
+     flex-basis:50% ;
+
+}
+.coursetxt{
+    max-width: 350px;
+    margin-left: 100px;
+}
+.coursetxt button{
+    margin: 30px 0;
+}
+
+/*Offer*/
+#offer button{
+    margin: 30px 0;
+}
+/*contact*/
+.contact-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contactleftcol, .contactrightcol{ 
+    flex-basis: 50%;
+    
+    
+}
+.contactrightcol img{
+    width: 100%;
+    
+}
+form{
+    width: 350px;
+    margin: 30px 0;
+
+}
+form input{
+    width: 100%;
+    outline: none;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: 2px solid #fab3c4;
+}
+.btnbox{
+    width: 100%;
+    display: flex;
+    justify-content : space-between ;
+}
+
+.btnbox button{
+    flex-basis: 48%;
+    padding: 18px 0;
+    }
+    /*Footer*/
+    #footer{
+        padding: 50px 0 30px;
+    }
+    hr{
+        border: 0;
+        border-top: 2px solid#f67c92;
+        width: 100%;
+    }
+    .footerrow{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .footerleftcol{
+        flex-basis: 50%;
+        margin-top: 60px;
+    }
+    .footerrightcol{
+        flex-basis: 35%;
+        margin-top: 10px;
+    }
+    .footerlinks{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .linktitle h4{
+        margin-bottom: 20px;
+        color: #fab3c4;
+    }
+    .linktitle{
+        font-size: 15px;
+        color: #777;
+    }
+    
+    .footerclass{
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footer-logo img{
+        width: 100px;
+
+    }
+    .footer-logo button{
+        margin-top: 20px;
+        padding: 12px 38px;
+        font-size: 10px;
+    }
+    .copyright-text small{
+        margin-right: 50px;
+    }
+    .copyright-text, .footer-logo{
+        flex-basis: 40%;
+    }
+    /*---Social-icons---*/
+
+
+
+.social-icons{
+    width: 50px;
+   position: fixed;
+   transform: translateY(-50%);
+   top: 50%;
+   left: 0;
+   z-index: 1;
+
+}
+.social-icons img{
+    display: block;
+    width: 20px;
+    margin: 0 auto 20px;
+    cursor: pointer;
+}
+/*--Responsive--*/
+@media only screen and (max-width: 770px) {
+    header{
+        background-image: none;
+    }
+        .container{
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .logo{
+        margin-top: 27px;
+        width: 70px;
+        }
+        .headertxt{
+            margin-top: 100px;
+            
+        }
+        h1{
+            font-size: 25px;
+        }
+        #menubtn{
+            width: 40px;
+            right: 50px;
+    }
+    .custom{
+        padding: 10px 16px;
+        
+}
+.social-icons img{
+    width: 14px;
+    margin: 15px auto;
+   
+}
+.aboutleftcol, .aboutrightcol{
+    flex-basis: 100%;
+}
+.aboutus{
+    margin: 50px 50px 0;
+}
+.aboutus h2{
+    font-size : 18px;
+
+}
+.col1{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+
+}
+.col2{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+
+}
+.col3{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+
+}
+.courses-col-1{
+    flex-basis: 100%;
+}
+.courses-col-2{
+    flex-basis: 100%;
+    margin-top: 70px;
+}
+.contactleftcol, .contactrightcol{ 
+    flex-basis: 100%;   
+}
+.contactrightcol{
+    margin-top: 50px;
+}
+.footerleftcol, .footerrightcol{
+    flex-basis: 100%;
+
+}
+.linktitle{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+}  
